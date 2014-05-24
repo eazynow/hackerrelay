@@ -9,9 +9,11 @@ def main():
 	r.close()
 
 	print "Base version"
+	print "With erols addition"
 
 	for place in leaderboard.keys():
-		print leaderboard[place]["name"]
+		if leaderboard[place]["name"] == "Skaro":
+			print "we have %d points" % leaderboard[place]["points"]
 
 if __name__ == "__main__":
     main()
