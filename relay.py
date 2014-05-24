@@ -10,7 +10,8 @@ def main():
 
 	print "Base version"
 	print "With erols addition & Dans & Deborah"
-        print "Superior code added be Telecoda"
+    print "Superior code added be Telecoda"
+    print "and with a fix from Janusz"
 
 	for place in leaderboard.keys():
 		if leaderboard[place]["name"] == "Skaro":
