@@ -9,7 +9,7 @@ def main():
 	r.close()
 
 	print "Base version"
-	print "With erols addition & Dans"
+	print "With erols addition & Dans & Deborah"
 
 	for place in leaderboard.keys():
 		if leaderboard[place]["name"] == "Skaro":
